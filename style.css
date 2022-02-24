@@ -10,7 +10,7 @@ h1 {
 
 h2 {
     color:rgb(68, 60, 60);
-    background-color:rgb(218, 176, 121);
+    background-color:rgb(159, 129, 112);
 }
 
 h3 {
@@ -23,7 +23,7 @@ h3 {
 }
 
 .myHeader img{
-    border: 2px solid rgb(218, 176, 121);
+    border: 2px solid rgb(159, 129, 112);
     object-fit: cover;
     border-radius: 50%;
     height: 200px;
@@ -31,11 +31,11 @@ h3 {
 }
 
 .intro{
-    background-color:rgb(218, 176, 121);
+    background-color:rgb(159, 129, 112);
 }
 
 .myFooter{
     color:white;
-    background-color:rgb(94, 79, 58);
+    background-color:rgb(74, 44, 42);
     text-align: center;
 }
