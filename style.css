@@ -1,0 +1,41 @@
+body {
+    color:rgb(68, 60, 60);
+    line-height:1.5;
+    font-family: 'Lora', serif;
+}
+
+h1 {
+    text-align: center;
+}
+
+h2 {
+    color:rgb(68, 60, 60);
+    background-color:rgb(218, 176, 121);
+}
+
+h3 {
+    color:rgb(68, 60, 60);
+    font-weight: bold;
+}
+
+.myHeader{
+    text-align: center;
+}
+
+.myHeader img{
+    border: 2px solid rgb(218, 176, 121);
+    object-fit: cover;
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+}
+
+.intro{
+    background-color:rgb(218, 176, 121);
+}
+
+.myFooter{
+    color:white;
+    background-color:rgb(94, 79, 58);
+    text-align: center;
+}
