@@ -11,107 +11,156 @@
     <link rel="stylesheet" href="style.css">
 
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 </head>
 <body>
 
 <!--HEADER----------------------------------------------->
-<!--About Me; Publications; Balanced Life-->
-<header class="myHeader">
-    <img src="fig/myPhoto.jpg", alt="The photo of Sarka" >
 
-    <h1>ŠÁRKA GRUBNER</h1>
+<header>
+    <div class="container-fluid">
+        <div class="row">
 
-    <p>
-        Data Scientist <br>
-        Lucky Wife & Mother
-    </p>
+            <div class="col-4">
+                <div class="photo">
+                    <img src="fig/myPhoto.jpg", alt="The photo of Sarka" >
+
+                    <h1>ŠÁRKA GRUBNER</h1>
+
+                    <p>
+                        Data Scientist <br>
+                        Lucky Wife & Mother
+                    </p>
+                </div>
+            </div>
+
+            <div class="col-8">
+                <div class="intro">
+
+                    <p>
+                        <i class="bi bi-telephone"></i> (+43) 660-7196 440<br>   
+                        <i class="bi bi-house-fill"></i> Wiener Neustadt, Austria <br>
+                        <i class="bi bi-envelope"></i> <a href="mailto:sarka.grubner@gmail.com">sarka.grubner@gmail.com</a><br>
+                        <i class="bi bi-linkedin"></i> <a href="https://at.linkedin.com/in/sarka-grubner-brodinova" target="_blank" >linkedin.com/sarka-grubner</a>
+                    </p>
+                    
+                    <h2>LIFE PHILOSOPHY</h2>
+                    <p>...an outlier is the data point hihly differing from the data majority. Such a point is very interesting as it holds potentially usefull information...Don't be afraid to be an outlier!</p>
+                
+                </div>
+            </div>
+
+        </div>
+    </div>
 </header>
-
-
-<section class="intro">
-
-    <p>
-        <i class="bi bi-telephone"></i> (+43) 660-7196 440<br>   
-        <i class="bi bi-house-fill"></i> Wiener Neustadt, Austria <br>
-        <i class="bi bi-envelope"></i> <a href="mailto:sarka.grubner@gmail.com">sarka.grubner@gmail.com</a><br>
-        <i class="bi bi-linkedin"></i> <a href="https://at.linkedin.com/in/sarka-grubner-brodinova" target="_blank" >linkedin.com/sarka-grubner</a>
-    </p>
-    
-    <h2>LIFE PHILOSOPHY</h2>
-    <p>“An outlier is the data point hihly differing from the data majority. Such a point is very interesting as it holds potentially usefull information...Don't be afraid to live as an outlier!</p>
- 
-</section>
 
 
 <!--EXPERIENCE--------------------------------------------->
 <section class="experience">
     <h2>EXPERIENCE</h2>
+    <div class="row">
 
-    <h3>Data Scientist & Consultant</h3>
-    <p>solvistas, GmbH | Feb 2018 – April 2020| Vienna, Austria</p>
-    <ul>
-        <li>Data Warehousing & BI Reporting to extract the key information from databases in order to support decision making process of the clients from the public sector of Austria</li>
-        <li>Engineering and documenting clients requirements, including the communication with interdisciplinary stakeholders</li>
-    </ul>
+        <div class="col-4">
+            <h4>Data Scientist & Consultant</h4>
+            <p>TÜV AUSTRIA Data Intelligence, GmbH | May 2020 – ongoing | Vienna, Austria</p>
+            <ul>
+                <li>Database preparation and managment for the back-end of a web-based application</li>
+                <li>Predictive maintenance in chemical productions</li>
+                <li>Lecturing Python</li>
+            </ul>
+        </div> 
+
+        <div class="col-4">
+            <h4>Data Scientist & Constultant</h4>
+            <p>solvistas, GmbH | Feb 2018 – April 2020 | Vienna, Austria</p>
+            <ul>
+                <li>Built Data Warehouses & BI Reports to extract the key information from databases in order to support decision making process of the clients from the public sector of Austria</li>
+                <li>Engineered and documented clients requirements, including the communication with interdisciplinary stakeholders</li>
+            </ul>
+        </div>  
+
+        <div class="col-4">
+            <h4>Researcher</h4>
+            <p>TU Wien | Jun 2014 – Dec 2017 | Vienna, Austria</p>
+            <ul>
+                <li>Developed new outlier detection and clustering algorithms in R to detect unusual and similar sequences in very large audio collections</li>
+                <li>Applied predictive models in R to analyze health care data</li>
+            </ul>
+        </div>
+    </div>
+</section>
+
+<!--STRENGHT------------------------------------------------------------------->
+<section class="strength">
+    <p> &#35;Team-Player
+        &#35;Flexible
+        &#35;Self-Motivation
+        &#35;Detail-Oriented 
+        &#35;Mentor
+        &#35;Structured
+        &#35;Discipline
+        </p>
+</section>
+
+<!--IT-KNOWLADGE------------------------------------------------------------------->
+<section class="it">
+    <h2>IT KNOWLEDGE</h2>
+    <div class="row">
+
+        <div class="col-4">
+            <h4>Data Warehousing & BI Reporting</h4>
+            <p>SQL (PostgreSQL, Oracle, Netezza), Data Vault & Star Schema Concept, Pentaho Data Integration, Enterprise Architect, IBM Cognos Analytics, SAS Visual Analytics</p>
+        </div>
+
+        <div class="col-4">
+            <h4>R</h4>
+            <p>Statistical Analytics, Data Visualization (ggplot) and Manipulation(dplyr), Reproducible Documentation (R Markdown, R Packaging</p>
+        </div>
+
+        <div class="col-4">
+            <h4>Other</h4>
+            <p>Python, Git, LATEX JIRA, Confluence, SAS Base, Microsoft Office</p>
+        </div>
+
+    </div>
+    
+    
 
 
 
-    <h3>Researcher at Project "FAMOUS" and "K-Project DEX-HELPP"</h3>
-    <p>TU Wien | Jun 2014 – Dec 2017 | Vienna, Austria</p>
-    <ul>
-        <li>Developed new outlier detection and clustering algorithms in R to detect unusual and similar sequences in very large audio collections</li>
-        <li>Applied predictive models in R to analyze health care data</li>
-    </ul>
+
+
 </section>
 
 <!--EDUCATION------------------------------------------------------------------------->
 <section class="education">
     <h2>EDUCATION</h2>
-    <h3>Doctoral Program at Technical Mathematics</h3>
-    <p>TU Wien | Sep 2014 – Nov 2017 | Vienna, Austria</p> 
-    <ul>
-        <li><strong>Research Area</strong>: Robust Statistical Grouping Method for High-Dimensional Data</li>
-        <li><strong>Focus</strong>: Robust Statistic, Outlier Detection, Cluster Analysis,Discriminant Analysis</li>
-    </ul>
+    <div class="row">
+        <div class="col">
+            <h4>Doctoral Program at Technical Mathematics</h4>
+            <p>TU Wien | Sep 2014 – Nov 2017 | Vienna, Austria</p> 
+            <ul>
+                <li><strong>Research Area</strong>: Robust Statistical Grouping Method for High-Dimensional Data</li>
+                <li><strong>Focus</strong>: Robust Statistic, Outlier Detection, Cluster Analysis,Discriminant Analysis</li>
+            </ul>
+        </div>
 
+        <div class="col">
+            <h4>Master Program at Applied Mathematics in Economics</h4>
+            <p>UPOL | Sep 2012 – May 2014 | Olomouc, Czech Republic</p>
+            <ul>
+                <li><strong>Master Thesis</strong>: The PARAFAC Approach and its Applications</li>
+                <li><strong>Focus</strong>: Multivariate Statistic, Finance & Actuarial Mathematics, Decision Models, Management</li>
+            </ul>
+        </div>
 
-    <h3>Master Program at Applied Mathematics in Economics</h3>
-    <p>UPOL | Sep 2012 – May 2014 | Olomouc, Czech Republic</p>
-    <ul>
-        <li><strong>Master Thesis</strong>: The PARAFAC Approach and its Applications</li>
-        <li><strong>Focus</strong>:Multivariate Statistic, Finance & Actuarial Mathematics, Decision Models, Management</li>
-    </ul>
-</section>
-
-
-<!--IT-KNOWLADGE------------------------------------------------------------------->
-<section class="IT">
-
-    <h2>IT KNOWLEDGE</h2>
-    <h3>R</h3>
-    <p>Statistical Analytics, Data Visualization (ggplot) and Manipulation(dplyr), Reproducible Documentation (R Markdown, R Packaging</p>
-
-    <h3>Data Warehousing & BI Reporting</h3>
-    <p>SQL (PostgreSQL, Oracle, Netezza), Data Vault & Star Schema Concept, Pentaho Data Integration, Enterprise Architect, IBM Cognos Analytics, SAS Visual Analytics</p>
-
-    <h3>Other</h3>
-    <p>Python, Git, LATEX JIRA, Confluence, SAS Base, Microsoft Office</p>
+    </div>
 
 </section>
-
-<section>
-    <p> &#35;Team Player Agile
-        &#35;Self-Motivation & Discipline
-        &#35;Detail-Oriented Mentor
-        &#35;Structured
-         </p>
-</section>
-
-
 
 <!--FOOTER------------------------------------------------------------------------->
 <footer class="myFooter">
-    <p> &copy; 2022, Sarka Grubner</p>
+    <p> &copy; 2022 Sarka Grubner</p>
 </footer>
 
 
