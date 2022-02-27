@@ -1,27 +1,32 @@
 body {
+    font-family: 'Caudex', serif;
     color:rgb(68, 60, 60);
     line-height:1.5;
-    font-family: 'Lora', serif;
     margin: 0;
 }
 
 h1 {
     text-align: center;
+    font-weight: bold;
+    font-family: 'Amatic SC', cursive;
 }
 
 h2 {
     color:rgb(68, 60, 60);
     text-align: center;
     margin-top: 0;
-    padding-bottom: 18px;
-    font-style: italic;
+    padding-bottom: 30px;
+    font-weight: bold;
+    font-family: 'Amatic SC', cursive;
 }
 
 h4 {
     color:rgb(68, 60, 60);
     font-weight: bold;
     margin-top: 36px;
+    font-family: 'Amatic SC', cursive; 
 }
+
 
 .photo{
     text-align: center;
@@ -45,13 +50,16 @@ h4 {
 
 .intro h2 {
     text-align: left;
-    font-style: italic;
+    font-weight: bold;
+    font-family: 'Amatic SC', cursive;
     padding: 40px 0 0 0;
 }
 
 .myFooter{
     text-align: center;
     padding: 20px 0;
+    background-color:rgb(159, 129, 112);
+    color:white;
 }
 
 
@@ -61,19 +69,24 @@ section {
 }
 
 .container-fluid{
-    background-color:rgb(159, 129, 112);
+    background-color:rgb(214, 193, 180);
 }
 
 .experience{
     background-color:rgb(202, 173, 155);
+    
 }
 
-.strength{
+.strength,
+.language{
     text-align: center;
     word-spacing: 30px;
     font-family: serif;
-    padding: 0;
+    padding: 10px;
     margin: 10px;
+    font-family: 'Amatic SC', cursive;
+    font-weight: bold;
+    font-size: 20px;
 }
 
 .it{
@@ -81,6 +94,32 @@ section {
 }
 
 .education{
-    background-color:rgb(159, 129, 112);
+    background-color:rgb(214, 193, 180);
 }
 
+.menu{
+    background-color:rgb(159, 129, 112);
+    margin: 0;
+    padding: 0 80px 0 0;
+    text-align: right;
+    font-weight: bold;
+    font-family: 'Amatic SC', cursive;
+}
+
+.menu li{
+    display: inline-block;
+}
+
+.menu a{
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    padding:20px 30px;
+    font-size: 20px;
+}
+
+a:hover,
+a:active,
+a:focus{
+    background-color:rgb(214, 193, 180);
+}

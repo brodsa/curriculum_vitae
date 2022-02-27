@@ -4,14 +4,20 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <title>Sarka Grubner</title>
-
-    <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;1,400&display=swap" rel="stylesheet">
-
-    <link rel="stylesheet" href="style.css">
 
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <!--FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Amatic+SC&family=Caudex:wght@400;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+
+
 </head>
 <body>
 
@@ -29,7 +35,7 @@
 
                     <p>
                         Data Scientist <br>
-                        Lucky Wife & Mother
+                        Lucky Mother & Wife
                     </p>
                 </div>
             </div>
@@ -40,12 +46,12 @@
                     <p>
                         <i class="bi bi-telephone"></i> (+43) 660-7196 440<br>   
                         <i class="bi bi-house-fill"></i> Wiener Neustadt, Austria <br>
-                        <i class="bi bi-envelope"></i> <a href="mailto:sarka.grubner@gmail.com">sarka.grubner@gmail.com</a><br>
-                        <i class="bi bi-linkedin"></i> <a href="https://at.linkedin.com/in/sarka-grubner-brodinova" target="_blank" >linkedin.com/sarka-grubner</a>
+                        <i class="bi bi-envelope"></i> <a href="mailto:sarka.grubner@gmail.com" style="color:white">sarka.grubner@gmail.com</a><br>
+                        <i class="bi bi-linkedin"></i> <a href="https://at.linkedin.com/in/sarka-grubner-brodinova" target="_blank" style="color: white" >linkedin.com/sarka-grubner</a>
                     </p>
                     
                     <h2>LIFE PHILOSOPHY</h2>
-                    <p>...an outlier is the data point hihly differing from the data majority. Such a point is very interesting as it holds potentially usefull information...Don't be afraid to be an outlier!</p>
+                    <p>...an outlier is a data point hihly differing from the data majority. Such a point is very interesting as it holds potentially usefull information... Don't be afraid to be the outlier!</p>
                 
                 </div>
             </div>
@@ -53,10 +59,17 @@
         </div>
     </div>
 </header>
+<!--MENU-->
+<ul class="menu">
+    <li><a href="#experience">Experience</a></li>
+    <li><a href="#strength">Strength</a></li>
+    <li><a href="#education">Education</a></li>
+    <li><a href="#it">IT Knowledge</a></li>
+</ul>
 
 
 <!--EXPERIENCE--------------------------------------------->
-<section class="experience">
+<section class="experience" id="experience">
     <h2>EXPERIENCE</h2>
     <div class="row">
 
@@ -66,7 +79,7 @@
             <ul>
                 <li>Database preparation and managment for the back-end of a web-based application</li>
                 <li>Predictive maintenance in chemical productions</li>
-                <li>Lecturing Python</li>
+                <li>Python Lecturing</li>
             </ul>
         </div> 
 
@@ -91,7 +104,7 @@
 </section>
 
 <!--STRENGHT------------------------------------------------------------------->
-<section class="strength">
+<section class="strength" id="strength">
     <p> &#35;Team-Player
         &#35;Flexible
         &#35;Self-Motivation
@@ -102,46 +115,16 @@
         </p>
 </section>
 
-<!--IT-KNOWLADGE------------------------------------------------------------------->
-<section class="it">
-    <h2>IT KNOWLEDGE</h2>
-    <div class="row">
-
-        <div class="col-4">
-            <h4>Data Warehousing & BI Reporting</h4>
-            <p>SQL (PostgreSQL, Oracle, Netezza), Data Vault & Star Schema Concept, Pentaho Data Integration, Enterprise Architect, IBM Cognos Analytics, SAS Visual Analytics</p>
-        </div>
-
-        <div class="col-4">
-            <h4>R</h4>
-            <p>Statistical Analytics, Data Visualization (ggplot) and Manipulation(dplyr), Reproducible Documentation (R Markdown, R Packaging</p>
-        </div>
-
-        <div class="col-4">
-            <h4>Other</h4>
-            <p>Python, Git, LATEX JIRA, Confluence, SAS Base, Microsoft Office</p>
-        </div>
-
-    </div>
-    
-    
-
-
-
-
-
-</section>
-
 <!--EDUCATION------------------------------------------------------------------------->
-<section class="education">
+<section class="education" id="education">
     <h2>EDUCATION</h2>
     <div class="row">
         <div class="col">
             <h4>Doctoral Program at Technical Mathematics</h4>
             <p>TU Wien | Sep 2014 – Nov 2017 | Vienna, Austria</p> 
             <ul>
-                <li><strong>Research Area</strong>: Robust Statistical Grouping Method for High-Dimensional Data</li>
-                <li><strong>Focus</strong>: Robust Statistic, Outlier Detection, Cluster Analysis,Discriminant Analysis</li>
+                <li><span style="font-weight:bold">Research Area</span>: Robust Statistical Grouping Method for High-Dimensional Data</li>
+                <li><span style="font-weight:bold">Focus</span>: Robust Statistic, Outlier Detection, Cluster Analysis,Discriminant Analysis</li>
             </ul>
         </div>
 
@@ -149,14 +132,63 @@
             <h4>Master Program at Applied Mathematics in Economics</h4>
             <p>UPOL | Sep 2012 – May 2014 | Olomouc, Czech Republic</p>
             <ul>
-                <li><strong>Master Thesis</strong>: The PARAFAC Approach and its Applications</li>
-                <li><strong>Focus</strong>: Multivariate Statistic, Finance & Actuarial Mathematics, Decision Models, Management</li>
+                <li><span style="font-weight:bold">Master Thesis</span>: The PARAFAC Approach and its Applications</li>
+                <li><span style="font-weight:bold">Focus</span>: Multivariate Statistic, Finance & Actuarial Mathematics, Decision Models, Management</li>
             </ul>
         </div>
 
     </div>
 
 </section>
+
+
+<!--IT-KNOWLADGE------------------------------------------------------------------->
+<section class="it" id="it">
+    <h2>IT KNOWLEDGE</h2>
+    <div class="row">
+
+        <div class="col-4">
+            <h4>Data Warehousing & BI Reporting</h4>
+            <ul>
+                <li>SQL (PostgreSQL, Oracle, Netezza) </li>
+                <li>Data Vault & Star Schema Concept, Pentaho Data Integration, Enterprise Architect </li> 
+                <li>IBM Cognos Analytics, SAS Visual Analytics </li>
+
+            </ul>
+        </div>
+
+        <div class="col-4">
+            <h4>R</h4>
+            <ul>
+                <li>Statistical Analytics</li>
+                <li>Data Visualization (ggplot) and Manipulation(dplyr)</li> 
+                <li>Reproducible Documentation (R Markdown, R Packaging</li>
+            </ul>
+        </div>
+
+        <div class="col-4">
+            <h4>Other</h4>
+            <ul>
+                <li>Python and Git</li>
+                <li>LATEX</li>
+                <li>JIRA and Confluence</li> 
+                <li>Microsoft Office</li>
+            </ul>
+        </div>
+
+    </div>
+    
+</section>
+
+
+<!--LANGUAGE------------------------------------------------------------------->
+<section class="language" id="language">
+    <p> &#35;Czech
+        &#35;English
+        &#35;German
+        </p>
+</section>
+
 
 <!--FOOTER------------------------------------------------------------------------->
 <footer class="myFooter">
