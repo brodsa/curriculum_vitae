@@ -118,8 +118,9 @@ section {
     font-size: 20px;
 }
 
+a,
 a:hover,
 a:active,
 a:focus{
-    background-color:rgb(214, 193, 180);
+    color:white;
 }
